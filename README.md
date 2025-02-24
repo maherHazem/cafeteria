@@ -51,4 +51,6 @@ The user is presented with a list of all registered tables in the database. The 
 The app authentication isn't anything fancy, just the use of hashes.
 
 # IMPROVEMENTS
-The app can have more improvements to it, like adding Js to make it more dinamic and changing a bit the style to make it responsive. There are also more changes that can be made to the database so it's even safer and more atomic, as making another table for reservations so the reservations aren't only for the current day.
+The app can have more improvements to it, like adding Js to make it more dinamic, restrictions to the products, changing a bit the style to make it responsive, etc. There are also more changes that can be made to the database so it's even safer and more atomic, as making another table for reservations so the reservations aren't only for the current day. I'll be working on these as I'm having free time for it.
+# DATABASE
+There is a structure in this repository named "cafeteria2.sql" that you can use to restore the database if you want to have a try at the app. Remember to check the database connection script located at "scripts/php/database/crudPDODatabase.php" and modify it so it can work on your end. The password for all given users is "123qwe".
