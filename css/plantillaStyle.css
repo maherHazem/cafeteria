@@ -1,0 +1,160 @@
+/*Global template*/
+* { /*Global set*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {background-color: white;}
+h1 {text-align: center;margin-top: .5vw;}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    padding: 2vh;
+    background-color: grey;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 10vw;
+    align-items: center;
+}
+textarea {
+    resize: none;
+    height: 10vh;
+    width: 20vw;
+}
+fieldset {
+    width: 100%;
+}
+button:hover {
+    cursor: pointer;
+}
+.navList {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.navItem {
+    margin: 0vw .5vw;
+}
+.navLink {
+    text-decoration: none;
+    color: black;
+}
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.formLabel{
+    display: flex;
+    justify-content: space-between;
+}
+.footerList {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*Command Pannel CSS*/
+.cPannel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.cPannelTwoOptions {
+    display:  grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/*Read Tables*/
+.tables {
+    margin-top: 0.5vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    column-gap: 0.5vw;
+    row-gap: 0.5vh;
+}
+.tableItem {
+    height: 5vh;
+    width: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.reserved {
+    background-color: rgb(70, 70, 248);
+}
+.occupied {
+    background-color: rgb(255, 91, 91);
+}
+/*Read products*/
+.products {
+    margin-top: 0.5vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    background-color: white;
+}
+.productsHeader {
+    font-weight: 600;
+}
+.productsItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+/*Read tables*/
+.tablesCRUD {
+    margin-top: 0.5vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    background-color: white;
+}
+/*Stock products*/
+.stockTable {
+    margin-top: 0.5vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+}
+/*Commands*/
+.commandsTable {
+    margin-top: 0.5vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: white;
+}
+/*Table commands*/
+.tableCommands {
+    margin-top: 0.5vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+}
+/*Check Register*/
+.itemExpanded {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.marginTop {
+    margin-top: 0.5vh;
+}
