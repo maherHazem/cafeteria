@@ -66,7 +66,15 @@ This project was developed as a self-training exercise to test and improve my sk
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/cafeteria.git
-   
+2. Import the database structure using the provided cafeteria2.sql file.
+3. Create a user that is able to work with the database (or use root).
+4. Update the database connection settings in scripts/php/database/crudPDODatabase.php:
+   ```bash
+   $host = 'your_host';
+   $dbname = 'your_database_name';
+   $username = 'your_username';
+   $password = 'your_password';
+5. Start your local server and navigate to the project directory.
 ## Database Setup
 
 The database structure is provided in the cafeteria2.sql file. Import it into your MySQL server to set up the necessary tables and initial data. Default user passwords are set to 123qwe.
