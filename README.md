@@ -65,7 +65,7 @@ This project was developed as a self-training exercise to test and improve my sk
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/cafeteria.git
+   git clone https://github.com/maherHazem/cafeteria.git
 2. Import the database structure using the provided cafeteria2.sql file.
 3. Create a user that is able to work with the database (or use root).
 4. Update the database connection settings in scripts/php/database/crudPDODatabase.php:
